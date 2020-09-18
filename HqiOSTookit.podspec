@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
-  s.name = 'SnapKit'
+  s.name = 'HqiOSTookit'
   s.version = '1.0.0'
   s.license = 'GNU'
   s.summary = 'HqiOSTookit'
-  s.homepage = 'https://github.com/HeHuiqi/HqiOSTookit.gitt'
-  s.authors = { 'HHQ' => '1710308677@me.com' }
+  s.homepage = 'https://github.com/HeHuiqi/HqiOSTookit.git'
+  s.authors = { 'Hehuiqi' => '1710308677@me.com' }
   s.social_media_url = 'https://github.com/HeHuiqi'
   s.source = { :git => 'https://github.com/HeHuiqi/HqiOSTookit.git', :tag => '1.0.0' }
 
