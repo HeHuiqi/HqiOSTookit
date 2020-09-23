@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		337E473B251992F00099B69C /* HqFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E473A251992F00099B69C /* HqFileManager.swift */; };
+		337E473C251992F00099B69C /* HqFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E473A251992F00099B69C /* HqFileManager.swift */; };
+		337E474E2519A7F00099B69C /* HqCatchException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E474D2519A7F00099B69C /* HqCatchException.swift */; };
+		337E474F2519A7F00099B69C /* HqCatchException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E474D2519A7F00099B69C /* HqCatchException.swift */; };
 		33DEC8E025147BE20073F1C6 /* HqiOSTookit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DEC8D625147BE20073F1C6 /* HqiOSTookit.framework */; };
 		33DEC8E525147BE20073F1C6 /* HqiOSTookitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DEC8E425147BE20073F1C6 /* HqiOSTookitTests.swift */; };
 		33DEC8E725147BE20073F1C6 /* HqiOSTookit.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DEC8D925147BE20073F1C6 /* HqiOSTookit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		337E473A251992F00099B69C /* HqFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HqFileManager.swift; sourceTree = "<group>"; };
+		337E474D2519A7F00099B69C /* HqCatchException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HqCatchException.swift; sourceTree = "<group>"; };
 		33DEC8D625147BE20073F1C6 /* HqiOSTookit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HqiOSTookit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DEC8D925147BE20073F1C6 /* HqiOSTookit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HqiOSTookit.h; sourceTree = "<group>"; };
 		33DEC8DA25147BE20073F1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,6 +83,8 @@
 				33DEC8D925147BE20073F1C6 /* HqiOSTookit.h */,
 				33DEC8DA25147BE20073F1C6 /* Info.plist */,
 				33DEC98B25147DCA0073F1C6 /* HqString.swift */,
+				337E473A251992F00099B69C /* HqFileManager.swift */,
+				337E474D2519A7F00099B69C /* HqCatchException.swift */,
 			);
 			path = HqiOSTookit;
 			sourceTree = "<group>";
@@ -199,7 +207,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337E473B251992F00099B69C /* HqFileManager.swift in Sources */,
 				33DEC98C25147DCA0073F1C6 /* HqString.swift in Sources */,
+				337E474E2519A7F00099B69C /* HqCatchException.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,8 +217,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337E474F2519A7F00099B69C /* HqCatchException.swift in Sources */,
 				33DEC8E525147BE20073F1C6 /* HqiOSTookitTests.swift in Sources */,
 				33DEC98D25147DCA0073F1C6 /* HqString.swift in Sources */,
+				337E473C251992F00099B69C /* HqFileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,10 +7,10 @@
 #
 Pod::Spec.new do |s|
   s.name     = 'HqiOSTookit'
-  s.version  = '1.0.2'
-  s.license  =  { :type => 'MIT', :file => 'LICENSE' }
-  s.summary  = 'HQSegmentPageViewController'
-  s.homepage = 'https://github.com/HeHuiqi/'
+  s.version  = '1.0.3'
+  s.license  =  "GNU"
+  s.summary  = 'HqiOSTookit'
+  s.homepage = 'https://github.com/HeHuiqi/HqiOSTookit'
   s.author   = 'Hehuiqi'
   s.source   = { :git => 'https://github.com/HeHuiqi/HqiOSTookit.git', :tag => s.version }
   s.platform = :ios, '10.0'

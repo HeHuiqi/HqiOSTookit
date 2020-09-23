@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:HqiOSTookit/HqiOSTookit.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:HqiOSTookitDemo/HqiOSTookitDemo.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:HqiOSTookit/HqiOSTookit.xcodeproj">
+      location = "group:HqiOSTookit.podspec">
    </FileRef>
 </Workspace>

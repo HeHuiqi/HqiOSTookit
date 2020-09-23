@@ -19,8 +19,13 @@ class HqiOSTookitTests: XCTestCase {
     }
 
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+        let phone = ["name":"apple","price":"1.0","amount":2] as [String:Any]
+        let query = HqString.hq_dicToQueryParams(dic: phone)
+        print(query)
+        let dic = HqString.hq_queryParamsToDic(queryParamStr: query)
+        print(dic)
+        
     }
 
     func testPerformanceExample() throws {
